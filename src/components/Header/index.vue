@@ -160,6 +160,7 @@ const headerClass = computed(() => {
         'bg-white': !arrivedState.top,
         'text-gray-900': !arrivedState.top,
         'text-white': arrivedState.top,
+        'shadow-md': !arrivedState.top
     }
 })
 const mobileMenuOpen = ref(false)
